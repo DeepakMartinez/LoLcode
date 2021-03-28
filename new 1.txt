@@ -1,1 +1,3 @@
 <script type="text/javascript" id="" src="https://lolstatic-a.akamaihd.net/ping_telemetry/latest/wpp.js"></script>
+analyticsEvent=function(b,a,c,d,e){dataLayer.push({event:"analyticsEvent",eventCategory:b,eventAction:a,eventLabel:c,eventValue:d,eventNonInt:e})};analyticsSocial=function(b,a,c,d){dataLayer.push({event:"social",socialNetwork:b,socialAction:a,socialTarget:c,socialPagePath:d})};analyticsVPV=function(b){dataLayer.push({event:"analyticsVPV",vpvName:b})};analyticsClearVPV=function(){dataLayer.push({event:"analyticsVPV",vpvName:void 0})};
+analyticsForm=function(b,a){var c=b,d=a.name||a.id||a.type;b="interaction";c="form: "+c;a=d+":"+a.type;analyticsEvent(b,c,a)};
