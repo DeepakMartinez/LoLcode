@@ -1,3 +1,5 @@
 <script type="text/javascript" id="" src="https://lolstatic-a.akamaihd.net/ping_telemetry/latest/wpp.js"></script>
 analyticsEvent=function(b,a,c,d,e){dataLayer.push({event:"analyticsEvent",eventCategory:b,eventAction:a,eventLabel:c,eventValue:d,eventNonInt:e})};analyticsSocial=function(b,a,c,d){dataLayer.push({event:"social",socialNetwork:b,socialAction:a,socialTarget:c,socialPagePath:d})};analyticsVPV=function(b){dataLayer.push({event:"analyticsVPV",vpvName:b})};analyticsClearVPV=function(){dataLayer.push({event:"analyticsVPV",vpvName:void 0})};
 analyticsForm=function(b,a){var c=b,d=a.name||a.id||a.type;b="interaction";c="form: "+c;a=d+":"+a.type;analyticsEvent(b,c,a)};
+
+<iframe height="0" width="0" style="display: none; visibility: hidden;" src="//9210267.fls.doubleclick.net/activityi;src=9210267;type=vis;cat=de_vi0;ord=1;num=1866265669074;gtm=2wg3h0;~oref=https%3A%2F%2Fna.leagueoflegends.com%2Fen-us%2F?"></iframe>
