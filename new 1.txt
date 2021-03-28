@@ -1,0 +1,1 @@
+<script type="text/javascript" id="" src="https://lolstatic-a.akamaihd.net/ping_telemetry/latest/wpp.js"></script>
